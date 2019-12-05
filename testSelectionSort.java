@@ -21,7 +21,7 @@ public class testSelectionSort {
     public testSelectionSort() {
     }
     
-    public void testPositive(){
+    /*public void testPositive(){
         int[] arr = new int[5];
         arr[0] = 8;
         arr[1] = 9;
@@ -40,9 +40,9 @@ public class testSelectionSort {
         assertArrayEquals(Sorter.basicSelectionSort(arr), Sortedarr);
         //Sorter.basicSelectionSort(arr);
         /** add tests to check for this unit test **/
-    }
+    //}
     
-    public void testNegative(){
+    /*public void testNegative(){
         
         int[] arr = new int[5];
         arr[0] = -8;
@@ -61,7 +61,7 @@ public class testSelectionSort {
         SelectionSort Sorter = new SelectionSort();
         assertArrayEquals(Sorter.basicSelectionSort(arr), Sortedarr);
         /** Test data contains negative values only **/
-    }
+    //}
     
     public void testMixed(){
         
